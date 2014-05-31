@@ -58,7 +58,8 @@ int main()
     
     if(garland.GetShowTimeForGenre("Comedy") != 0)
     {
-        cout << garland.GetShowTimeForGenre("Comedy");
+        cout << garland.GetShowTimeForGenre("Comedy"); // I used this for testing purposes, comment out if you want
+        cout << garland.GetMovieForHour(18);  // ^same
         errors++;
         cout << "error: incorrect Comedy\n";
     }

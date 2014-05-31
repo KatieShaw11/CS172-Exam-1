@@ -3,8 +3,7 @@
 //  Exam 1
 //
 //  Created by katie joy shaw on 5/29/14.
-//  Copyright (c) 2014 Katie Shaw. All rights reserved.
-//
+//I affirm that all code given below was written solely by me, Katie Shaw, and that any help I received adhered to the rules stated for this exam.
 
 #ifndef __Exam_1__Movie__
 #define __Exam_1__Movie__
