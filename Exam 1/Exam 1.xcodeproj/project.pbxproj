@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A2EC9F951937019B001599B1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2EC9F941937019B001599B1 /* main.cpp */; };
 		A2EC9F971937019B001599B1 /* Exam_1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A2EC9F961937019B001599B1 /* Exam_1.1 */; };
+		A2EC9F9F1937AA6D001599B1 /* Movie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2EC9F9D1937AA6D001599B1 /* Movie.cpp */; };
+		A2EC9FA21937ACFB001599B1 /* Theater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2EC9FA01937ACFB001599B1 /* Theater.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		A2EC9F911937019B001599B1 /* Exam 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Exam 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2EC9F941937019B001599B1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A2EC9F961937019B001599B1 /* Exam_1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Exam_1.1; sourceTree = "<group>"; };
+		A2EC9F9D1937AA6D001599B1 /* Movie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Movie.cpp; sourceTree = "<group>"; };
+		A2EC9F9E1937AA6D001599B1 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		A2EC9FA01937ACFB001599B1 /* Theater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Theater.cpp; sourceTree = "<group>"; };
+		A2EC9FA11937ACFB001599B1 /* Theater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theater.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				A2EC9F941937019B001599B1 /* main.cpp */,
+				A2EC9F9D1937AA6D001599B1 /* Movie.cpp */,
+				A2EC9F9E1937AA6D001599B1 /* Movie.h */,
+				A2EC9FA01937ACFB001599B1 /* Theater.cpp */,
+				A2EC9FA11937ACFB001599B1 /* Theater.h */,
 				A2EC9F961937019B001599B1 /* Exam_1.1 */,
 			);
 			path = "Exam 1";
@@ -117,6 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2EC9F9F1937AA6D001599B1 /* Movie.cpp in Sources */,
+				A2EC9FA21937ACFB001599B1 /* Theater.cpp in Sources */,
 				A2EC9F951937019B001599B1 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +237,7 @@
 				A2EC9F9C1937019B001599B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
